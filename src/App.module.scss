@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,6 +21,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
 .app {
   display: flex;
   background-color: #2a2c2d;
@@ -27,10 +29,8 @@
   padding-left: 10px;
   padding-right: 15px;
   padding-bottom: 20px;
-}
 
-@media (max-width: 840px) {
-  .app {
+  @media (max-width: 840px) {
     flex-direction: column-reverse;
     align-items: center;
   }
